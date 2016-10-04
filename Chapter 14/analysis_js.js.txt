@@ -1,0 +1,18 @@
+<script type="text/javascript">
+  priority = document.getElementById('priority');
+  if (priority) {
+      target = document.getElementById('customfield_10100');
+      // Hide the target field if priority isn't critical
+      if (priority.value != 1) target.style.display='none';
+  
+      priority.onchange=function() {
+
+                if (this.value == 1) {             
+                     target.style.display = ''; 
+                     target.value="Enter Analysis here";
+                  } else {
+                 target.style.display='none';
+          }
+      }
+  }
+</script>
