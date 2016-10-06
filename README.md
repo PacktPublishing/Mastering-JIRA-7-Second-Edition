@@ -3,7 +3,7 @@ This is the code repository for [Mastering JIRA 7 - Second Edition](https://www.
 ##Instructions and Navigations
 All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter02.
 
-The chapters 1 to 8,10 to 13, and, 15 to 18 does not contain code files. 
+The chapters 1 to 8, 10 to 13, and 15 to 18 does not contain code files. 
 
 The code will look like the following:
 ```
